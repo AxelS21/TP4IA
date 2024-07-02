@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Cargar la imagen
-imagen = cv2.imread('sudoku_resuelto_completo.png')
+imagen = cv2.imread('images/Sudoku_resuelto_completo.png')
 
 # Convertir a escala de grises
 imagen_gris = cv2.cvtColor(imagen, cv2.COLOR_BGR2GRAY)
