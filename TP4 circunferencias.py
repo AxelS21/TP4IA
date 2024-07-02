@@ -32,7 +32,7 @@ def detect_circles(image_path):
         return img, None
 
 # Ejemplo de uso
-image_path = 'smarties.png'
+image_path = 'images/smarties.png'
 detected_img, detected_circles = detect_circles(image_path)
 
 if detected_img is not None:
